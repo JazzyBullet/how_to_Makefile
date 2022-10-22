@@ -12,7 +12,9 @@ https://seisman.github.io/how-to-write-makefile/
 
 本文仅针对GNU的make进行讲述
 
-#### 程序的编译与链接
+
+
+## 程序的编译与链接
 
 - **源代码** —— 编译 & 汇编 —— **中间代码（.o文件）**—— 链接 —— **可执行文件**
   - 一般来说，每个源文件都应该对应于一个中间目标文件
@@ -213,4 +215,4 @@ endif
 
 - **默认寻找 makefile或Makefile文件**
 - 也可以手动指定，`make –f hchen.mk`
-- 
+
