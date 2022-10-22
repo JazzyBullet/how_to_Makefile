@@ -36,5 +36,25 @@ target ... : prerequisites ...
 
 
 
+#### Demo1：简单样例
+
 > 需要在vimrc中设置 set noexpandtab，不用空格代替制表符，否则会导致错误
+
+```makefile
+test:test.o
+	gcc -o test test.o
+
+test.o:test.c
+	gcc -c test.c
+	
+clean:
+	rm test test.o
+```
+
+- make —— 执行编译
+- make clean —— 清楚指定文件
+
+
+
+#### Demo2：使用变量
 
