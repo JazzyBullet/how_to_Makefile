@@ -21,3 +21,15 @@
 
 ## Makefile介绍
 
+```makefile
+target ... : prerequisites ...
+    command
+    ...
+    ...
+```
+
+- target —— 生成的目标
+- prerequisites —— 生成该target所依赖的文件和/或target
+- command —— 该target要执行的命令（任意的shell命令）
+
+【**prerequisites中如果有一个以上的文件比target文件要新的话，command所定义的命令就会被执行】**
