@@ -33,3 +33,8 @@ target ... : prerequisites ...
 - command —— 该target要执行的命令（任意的shell命令）
 
 【**prerequisites中如果有一个以上的文件比target文件要新的话，command所定义的命令就会被执行】**
+
+
+
+> 需要再vimrc中设置 set noexpandtab，不用空格代替制表符，否则会导致错误
+
