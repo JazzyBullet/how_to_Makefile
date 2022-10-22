@@ -36,5 +36,5 @@ target ... : prerequisites ...
 
 
 
-> 需要再vimrc中设置 set noexpandtab，不用空格代替制表符，否则会导致错误
+> 需要在vimrc中设置 set noexpandtab，不用空格代替制表符，否则会导致错误
 
