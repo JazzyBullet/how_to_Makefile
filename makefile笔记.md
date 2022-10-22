@@ -58,3 +58,19 @@ clean:
 
 #### Demo2：使用变量
 
+- 类比C语言中的 **宏**，进行替换
+- 使用 **$(name)** 引用变量
+
+```makefile
+object = test.c
+
+test:test.o
+	gcc -o test test.o
+
+test.o:$(object)
+	gcc -c $(object)
+
+clean:
+	rm test test.o
+```
+
